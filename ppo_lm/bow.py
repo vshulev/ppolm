@@ -120,7 +120,7 @@ def build_bows_one_hot_vectors(
     vocab_size = tokenizer.vocab_size
     # Fixes issue with tokenizer and model having different vocab size.
     # Additional info here: https://huggingface.co/microsoft/phi-2/discussions/22
-    if tokenizer.name_or_path == "microsoft/phi-2":
+    if tokenizer.name_or_path in ["microsoft/phi-1_5", "microsoft/phi-2"]:
         vocab_size = 51200
 
     # Construct a one-hot matrix of dimensions BxV.

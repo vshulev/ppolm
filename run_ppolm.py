@@ -38,7 +38,6 @@ def run_ppolm(
     logging.info("sample=%s", str(sample))
     logging.info("kl_scale=%f", kl_scale)
 
-
     torch.set_default_device(device)
 
     model = AutoModelForCausalLM.from_pretrained(pretrained_model)
