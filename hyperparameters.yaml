@@ -1,0 +1,17 @@
+default:
+  stepsize: 1
+  temperature: 1
+  top_k: 10
+  sample: true
+  num_iterations: 3
+  warmup_steps: 1
+  grad_length: 10000
+  window_length: 0
+  decay: false
+  kl_scale: 0.0
+# Custom hyperparameters per topic which override the defaults
+space:
+  warmup_steps: 1
+  kl_scale: 0.01
+politics:
+  warmup_steps: 2
