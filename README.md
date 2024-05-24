@@ -6,6 +6,7 @@ This repository contains source code for PPOLM as describe in [this paper](https
 
 ## Citation
 
+```
 @inproceedings{shulev-simaan-2024-continual-reinforcement,
     title = "Continual Reinforcement Learning for Controlled Text Generation",
     author = "Shulev, Velizar  and
@@ -20,3 +21,4 @@ This repository contains source code for PPOLM as describe in [this paper](https
     month = may,
     year = "2024",
 }
+```
