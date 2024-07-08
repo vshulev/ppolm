@@ -1,6 +1,6 @@
-# ppolm
+# [Continual Reinforcement Learning for Controlled Text Generation](https://aclanthology.org/2024.lrec-main.343/)
 
-This repository contains source code for PPOLM as described in [this paper](https://aclanthology.org/2024.lrec-main.343/).
+This repository contains the source code for PPOLM.
 
 :warning: Additional documentation coming soon. To generate sentences use the `run_ppolm.py` script.
 
