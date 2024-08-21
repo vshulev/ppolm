@@ -2,7 +2,9 @@
 
 This repository contains the source code for PPOLM.
 
-:warning: Additional documentation coming soon. To generate sentences use the `run_ppolm.py` script.
+To generate sentences use the `run_ppolm.py` script.
+
+To generate a dataset use the `generate_sentences.py` script.
 
 ## Citation
 
